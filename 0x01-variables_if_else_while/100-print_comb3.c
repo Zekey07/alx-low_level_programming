@@ -4,7 +4,7 @@
  * main - main block
  * Description: write a program that prints all possible
  * different combinations of two digits
- * Numbers must be separated by ,, followed by a space 
+ * Numbers must be separated by ,, followed by a space
  * The teo digits must be different
  * 01 and 10 are considered the same combination of the digits 0 and 1
  * print only the smallest combination of two digits

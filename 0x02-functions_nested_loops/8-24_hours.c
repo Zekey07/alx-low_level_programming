@@ -22,22 +22,26 @@ void jack_bauer(void)
 			a = 3;
 		}
 		h1 = 0;
-		while (m2 <= 5)
+		while (h1 <= a)
 		{
-			m1 = 0;
-			while (m1 <= 9)
+			m2 = 0;
+			while (m2 <= 5)
 			{
-				_putchar('0' + h2);
-				_putchar('0' + h1);
-				_putchar(';');
-				_putchar('0' + m2);
-				_putchar('0' + m1);
-				_putchar('\n');
-				m1++;
+				m1 = 0;
+				while (m1 <= 9)
+				{
+					_putchar('0' + h2);
+					_putchar('0' + h1);
+					_putchar(':');
+					_putchar('0' + m2);
+					_putchar('0' + m1);
+					_putchar('\n');
+					m1++;
+				}
+				m2++;
 			}
-			m2++;
+			h1++;
 		}
-		h1++;
+		h2++;
 	}
-	h2++;
 }

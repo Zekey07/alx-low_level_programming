@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * print_number - prints an integer.
- * @n: The intiger to prints.
+ * print_number - print
+ * @n: intiger
  * Return: always
  */
 
@@ -18,5 +18,5 @@ void print_number(int n)
 	if ((num / 10) > 0)
 		print_number(num / 10);
 
-	_putchar((num % 1)0 + '0');
+	_putchar((num % 10) + '0');
 }

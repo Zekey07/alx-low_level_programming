@@ -36,7 +36,7 @@ int _atoi(char *s)
 				break;
 			f = 0;
 		}
-		int++;
+		int(++);
 	}
 	if (f == 0)
 		return (0);

@@ -14,7 +14,7 @@ int main(void)
 
 	sum = 0;
 
-	srand(time(Null));
+	srand(rand(time));
 
 	for (i = 0; i < 100; i++)
 	{

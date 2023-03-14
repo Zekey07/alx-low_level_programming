@@ -39,8 +39,9 @@ char **strtow(char *str)
 	int i, k = 0, len = 0, words, c = 0, start, end;
 
 	while (*(str + len))
-		if (words == 0)
-			return (NULL);
+		len++;
+	if (words == 0)
+		return (NULL);
 
 	matrix = (char **) malloc(sizeof(char *) * (words + 1));
 	if (matrix == NULL)
